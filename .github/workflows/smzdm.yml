@@ -11,7 +11,7 @@ on:
   #  branches: [ master ]
   # 定时执行 cron 表达式 * * * * * 
   schedule:
-    - cron: "10 9,19 * * *"
+    - cron: "1 * * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
